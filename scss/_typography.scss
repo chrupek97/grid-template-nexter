@@ -4,11 +4,7 @@
 }
 
 .heading-2 {
-<<<<<<< HEAD
-    @extend heading;
-=======
     @extend %heading;
->>>>>>> HomeSection_branch
     font-size: 4rem;
     font-style: italic;
     line-height: 1;
@@ -23,11 +19,7 @@
 }
 
 .heading-3 {
-<<<<<<< HEAD
-    @extend heading;
-=======
     @extend %heading;
->>>>>>> HomeSection_branch
     font-size: 1.6rem;
 
     color: $color-primary;
@@ -35,28 +27,19 @@
 }
 
 .heading-4 {
-<<<<<<< HEAD
-    @extend heading;
-    font-size: 1.9rem;
-
-    &--light { 
-        @extend heading;
-=======
     @extend %heading;
     font-size: 1.9rem;
 
     &--light { 
-        @extend %heading;
->>>>>>> HomeSection_branch
+        font-size: 1.9rem;
+    }
+
+    &--light { 
         font-size: 1.9rem;
     }
 
     &--dark { 
-<<<<<<< HEAD
-        @extend heading;
-=======
         @extend %heading;
->>>>>>> HomeSection_branch
         font-size: 1.9rem;
     }
 }

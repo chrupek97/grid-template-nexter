@@ -245,7 +245,7 @@ body {
   margin-bottom: 4rem;
 }
 
-.heading-2, .heading-3, .heading-4, .heading-4--light, .heading-4--dark {
+.heading-2, .heading-3, .heading-4, .heading-4--dark {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
 }
@@ -275,20 +275,14 @@ body {
 }
 
 .heading-4--light {
-<<<<<<< HEAD
-  font-family: "Josefin Sans", sans-serif;
-  color: #f9f7f6;
-=======
->>>>>>> HomeSection_branch
+  font-size: 1.9rem;
+}
+
+.heading-4--light {
   font-size: 1.9rem;
 }
 
 .heading-4--dark {
-<<<<<<< HEAD
-  font-family: "Josefin Sans", sans-serif;
-  color: #54483A;
-=======
->>>>>>> HomeSection_branch
   font-size: 1.9rem;
 }
 
