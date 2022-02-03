@@ -3,3 +3,39 @@
     grid-column: sidebar-start / sidebar-end;
     grid-row: 1 / -1;
 }
+
+.nav-btn {
+    border-radius: none;
+    outline: none;
+    border-radius: 0;
+    background-color: white;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 4.5rem;
+    position: relative;
+    display: block;
+    
+    &::before,
+    &::after {
+        content: "";
+        background-color: white;
+        height: 2px;
+        width: 4.5rem;
+        position: absolute;
+        display: block;
+    }
+
+    &::before {
+        top: -1.5rem;
+    }
+
+    &::after {
+        top: 1.5rem;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}

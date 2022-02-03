@@ -188,6 +188,41 @@ body {
   grid-row: 1 / -1;
 }
 
+.nav-btn {
+  border-radius: none;
+  outline: none;
+  border-radius: 0;
+  background-color: white;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  width: 4.5rem;
+  position: relative;
+  display: block;
+}
+
+.nav-btn::before, .nav-btn::after {
+  content: "";
+  background-color: white;
+  height: 2px;
+  width: 4.5rem;
+  position: absolute;
+  display: block;
+}
+
+.nav-btn::before {
+  top: -1.5rem;
+}
+
+.nav-btn::after {
+  top: 1.5rem;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+}
+
 .story__pictures {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(198, 153, 99, 0.5)), to(rgba(198, 153, 99, 0.5))), url(../img/back.jpg);
   background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(../img/back.jpg);
