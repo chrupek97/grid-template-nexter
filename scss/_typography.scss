@@ -37,12 +37,11 @@
     @extend %heading;
     font-size: 1.9rem;
 
-    &--light { 
-        font-size: 1.9rem;
-    }
 
     &--light { 
+        @extend %heading;
         font-size: 1.9rem;
+        color: white;
     }
 
     &--dark { 
